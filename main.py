@@ -71,7 +71,7 @@ class Comment(db.Model):
     text = db.Column(db.Text, nullable=False)
 
 
-db.create_all()
+# db.create_all()
 # User.__table__.create(db.session.bind) # adds new table (User) to existing database (BlogPost)
 
 
